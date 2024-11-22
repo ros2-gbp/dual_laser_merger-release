@@ -1,0 +1,12 @@
+Source: ros-humble-dual-laser-merger
+Section: misc
+Priority: optional
+Maintainer: pradyum <pradyum.30@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-humble-ament-cmake, ros-humble-ament-cmake-auto, ros-humble-ament-copyright <!nocheck>, ros-humble-ament-cpplint <!nocheck>, ros-humble-ament-flake8 <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-ament-pep257 <!nocheck>, ros-humble-ament-xmllint <!nocheck>, ros-humble-geometry-msgs, ros-humble-laser-geometry, ros-humble-message-filters, ros-humble-pcl-conversions, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-dual-laser-merger
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, ros-humble-geometry-msgs, ros-humble-laser-geometry, ros-humble-message-filters, ros-humble-pcl-conversions, ros-humble-pcl-ros, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-tf2, ros-humble-tf2-ros, ros-humble-tf2-sensor-msgs, ros-humble-ros-workspace
+Description: merge dual lidar's scans.
