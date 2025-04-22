@@ -1,0 +1,12 @@
+Source: ros-kilted-dual-laser-merger
+Section: misc
+Priority: optional
+Maintainer: pradyum <pradyum.30@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-kilted-ament-cmake, ros-kilted-ament-cmake-auto, ros-kilted-ament-copyright <!nocheck>, ros-kilted-ament-cpplint <!nocheck>, ros-kilted-ament-flake8 <!nocheck>, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-ament-pep257 <!nocheck>, ros-kilted-ament-xmllint <!nocheck>, ros-kilted-geometry-msgs, ros-kilted-laser-geometry, ros-kilted-message-filters, ros-kilted-pcl-conversions, ros-kilted-pcl-ros, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-tf2, ros-kilted-tf2-ros, ros-kilted-tf2-sensor-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-dual-laser-merger
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, ros-kilted-geometry-msgs, ros-kilted-laser-geometry, ros-kilted-message-filters, ros-kilted-pcl-conversions, ros-kilted-pcl-ros, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-tf2, ros-kilted-tf2-ros, ros-kilted-tf2-sensor-msgs, ros-kilted-ros-workspace
+Description: merge dual lidar's scans.
