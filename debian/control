@@ -1,0 +1,12 @@
+Source: ros-lyrical-dual-laser-merger
+Section: misc
+Priority: optional
+Maintainer: pradyum <pradyum.30@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-cmake-auto, ros-lyrical-ament-copyright <!nocheck>, ros-lyrical-ament-cpplint <!nocheck>, ros-lyrical-ament-flake8 <!nocheck>, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ament-pep257 <!nocheck>, ros-lyrical-ament-xmllint <!nocheck>, ros-lyrical-geometry-msgs, ros-lyrical-laser-geometry, ros-lyrical-message-filters, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-tf2, ros-lyrical-tf2-ros, ros-lyrical-tf2-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/dual_laser_merger/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-dual-laser-merger
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-dev, ros-lyrical-geometry-msgs, ros-lyrical-laser-geometry, ros-lyrical-message-filters, ros-lyrical-pcl-conversions, ros-lyrical-pcl-ros, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-tf2, ros-lyrical-tf2-ros, ros-lyrical-tf2-sensor-msgs, ros-lyrical-ros-workspace
+Description: merge dual lidar's scans.
